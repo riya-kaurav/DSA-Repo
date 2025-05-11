@@ -12,6 +12,24 @@ int i =3;
 cout <<i[arr] << endl; // value of third element
 
 
+int temp[10] ;
+cout << sizeof(temp) << endl; // size = 40
+int *p =&temp[0]; 
+cout << sizeof(p); // size = 8
+cout << sizeof(*p); // size = 4
+cout << sizeof(&p); // size = 8
 
+cout << sizeof(*temp); // size =4
+
+cout << sizeof(&temp); // size = 8
+
+int a[20] = {1, 2, 3, 4, 5};
+cout << &a[0] << endl; 
+cout << a << endl; 
+cout << &a << endl;
+
+int *p1 = &a[0];
+cout << p1 << endl;
+cout << &p1 << endl;
 
 } 
